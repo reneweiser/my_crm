@@ -1,7 +1,7 @@
 # Agent Guidelines for my_crm
 
 ## Tech Stack
-Laravel 12 + Filament 4 admin panel, Pest for testing, Vite for asset building, PHP 8.2+, Laravel Sail for development
+Laravel 12 + Filament 4 admin panel, Pest for testing, Vite for asset building, PHP 8.4+, Laravel Sail for development
 
 ## Commands
 - Test all: `sail test` or `sail composer test`
