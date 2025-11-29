@@ -9,8 +9,8 @@ Development broken into 6 focused sprints, each delivering a working, testable f
 **Goal:** Set up project foundation and implement core client/contact management.
 
 ### Tasks
-- [ ] Configure application settings (company details, tax settings)
-- [ ] Create Client model, migration, factory, tests
+- [x] Configure application settings (company details, tax settings)
+- [x] Create Client model, migration, factory, tests
 - [ ] Create Contact model, migration, factory, tests
 - [ ] Build ClientResource in Filament with full CRUD
 - [ ] Add ContactsRelationManager to ClientResource

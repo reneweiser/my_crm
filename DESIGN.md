@@ -50,7 +50,7 @@ Task
 ### 1. Client & Project Management
 
 **Models:**
-- `Client`: name, company, tax_id, address, email, phone, notes
+- `Client`: name, company, address, email, phone, notes
 - `Contact`: client_id, name, email, phone, position, is_primary
 - `Project`: client_id, name, description, status (active/completed/archived), rate_type (hourly/fixed/retainer), hourly_rate, fixed_price
 - `TimeEntry`: project_id, user_id, description, hours, date, billable

@@ -1,9 +1,13 @@
 # Agent Guidelines for my_crm
 
+- Never run `git commit` unless I give the prompt `Commit all changes.`
+- Since we are using Laravel Sail for development all commands that start with `php artisan` should now be run as `sail artisan`.
+
 ## Tech Stack
 Laravel 12 + Filament 4 admin panel, Pest for testing, Vite for asset building, PHP 8.4+, Laravel Sail for development
 
 ## Commands
+- Running migrations: `sail artisan migrate`
 - Test all: `sail test` or `sail composer test`
 - Test single file: `sail test tests/Feature/ExampleTest.php`
 - Test single test: `sail test --filter=test_name`
