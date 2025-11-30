@@ -9,14 +9,8 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Contact extends Model
 {
-    /** @use HasFactory<\Database\Factories\ContactFactory> */
     use HasFactory, SoftDeletes;
 
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array<int, string>
-     */
     protected $fillable = [
         'client_id',
         'name',
@@ -26,11 +20,6 @@ class Contact extends Model
         'is_primary',
     ];
 
-    /**
-     * Get the attributes that should be cast.
-     *
-     * @return array<string, string>
-     */
     protected function casts(): array
     {
         return [
