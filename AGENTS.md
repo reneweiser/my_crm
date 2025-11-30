@@ -1,19 +1,19 @@
 # Agent Guidelines for my_crm
 
 - Never run `git commit` unless I give the prompt `Commit all changes.`
-- Since we are using Laravel Sail for development all commands that start with `php artisan` should now be run as `sail artisan`.
+- Since we are using Laravel Sail for development all commands that start with `php artisan` should now be run as `./vendor/bin/sail artisan`.
 
 ## Tech Stack
 Laravel 12 + Filament 4 admin panel, Pest for testing, Vite for asset building, PHP 8.4+, Laravel Sail for development
 
 ## Commands
-- Running migrations: `sail artisan migrate`
-- Test all: `sail test` or `sail composer test`
-- Test single file: `sail test tests/Feature/ExampleTest.php`
-- Test single test: `sail test --filter=test_name`
-- Lint/format: `sail pint` (Laravel Pint follows PSR-12)
+- Running migrations: `./vendor/bin/sail artisan migrate`
+- Test all: `./vendor/bin/sail test` or `./vendor/bin/sail composer test`
+- Test single file: `./vendor/bin/sail test tests/Feature/ExampleTest.php`
+- Test single test: `./vendor/bin/sail test --filter=test_name`
+- Lint/format: `./vendor/bin/sail pint` (Laravel Pint follows PSR-12)
 - Dev server: `composer dev` (runs server, queue, logs, and vite concurrently)
-- Build assets: `sail npm run build`
+- Build assets: `./vendor/bin/sail npm run build`
 
 ## Code Style
 - Indentation: 4 spaces for PHP/YAML, 2 spaces for package.json
