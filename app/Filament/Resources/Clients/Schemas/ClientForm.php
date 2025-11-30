@@ -30,7 +30,7 @@ class ClientForm
                     TextInput::make('website'),
                 ])
                     ->label('Contact'),
-                MarkdownEditor::make('notes')
+                MarkdownEditor::make('notes'),
             ]);
     }
 }

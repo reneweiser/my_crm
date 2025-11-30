@@ -44,7 +44,7 @@ Development broken into 6 focused sprints, each delivering a working, testable f
 - [x] Add TimeEntriesRelationManager to ProjectResource
 - [x] Implement project status workflow (active/completed/archived)
 - [x] Add hourly rate calculation logic
-- [ ] Create widget showing total billable hours per project
+- [x] Create widget showing total billable hours per project
 - [x] Write feature tests for project and time entry CRUD
 
 ### Deliverables

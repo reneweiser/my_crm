@@ -58,7 +58,7 @@ class ContactsRelationManager extends RelationManager
                 TextColumn::make('phone')
                     ->searchable(),
                 TextColumn::make('position'),
-                BooleanColumn::make('is_primary')
+                BooleanColumn::make('is_primary'),
             ])
             ->filters([
                 TrashedFilter::make(),
@@ -75,7 +75,7 @@ class ContactsRelationManager extends RelationManager
                 RestoreAction::make(),
                 Action::make('Make Primary')
                     ->requiresConfirmation()
-                    ->action(fn (Contact $record) => $record->makePrimary())
+                    ->action(fn (Contact $record) => $record->makePrimary()),
             ])
             ->toolbarActions([
                 BulkActionGroup::make([
