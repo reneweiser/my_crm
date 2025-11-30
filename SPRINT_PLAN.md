@@ -37,15 +37,15 @@ Development broken into 6 focused sprints, each delivering a working, testable f
 **Goal:** Enable project management and time tracking for billable work.
 
 ### Tasks
-- [ ] Create Project model, migration, factory, tests
-- [ ] Create TimeEntry model, migration, factory, tests
-- [ ] Build ProjectResource in Filament
-- [ ] Add ProjectsRelationManager to ClientResource
-- [ ] Add TimeEntriesRelationManager to ProjectResource
-- [ ] Implement project status workflow (active/completed/archived)
-- [ ] Add hourly rate calculation logic
+- [x] Create Project model, migration, factory, tests
+- [x] Create TimeEntry model, migration, factory, tests
+- [x] Build ProjectResource in Filament
+- [x] Add ProjectsRelationManager to ClientResource
+- [x] Add TimeEntriesRelationManager to ProjectResource
+- [x] Implement project status workflow (active/completed/archived)
+- [x] Add hourly rate calculation logic
 - [ ] Create widget showing total billable hours per project
-- [ ] Write feature tests for project and time entry CRUD
+- [x] Write feature tests for project and time entry CRUD
 
 ### Deliverables
 - Project management linked to clients
