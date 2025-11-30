@@ -13,10 +13,10 @@ Development broken into 6 focused sprints, each delivering a working, testable f
 - [x] Create Client model, migration, factory, tests
 - [x] Create Contact model, migration, factory, tests
 - [x] Write feature tests for client/contact CRUD operations
-- [ ] Build ClientResource in Filament with full CRUD
-- [ ] Add ContactsRelationManager to ClientResource
-- [ ] Implement client search, filtering, and sorting
-- [ ] Add validation rules (email, etc.)
+- [x] Build ClientResource in Filament with full CRUD
+- [x] Implement client search, filtering, and sorting
+- [x] Add ContactsRelationManager to ClientResource
+- [x] Add validation rules (email, etc.)
 
 ### Deliverables
 - Fully functional client and contact management
