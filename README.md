@@ -74,8 +74,18 @@ composer dev
 
 ## Documentation
 
-- [Design Document](DESIGN.md) - Architecture and implementation details
-- [Agent Guidelines](AGENTS.md) - Coding standards for AI assistants
+Comprehensive documentation is available in the [`docs/`](./docs/) directory:
+
+- **[Documentation Index](./docs/README.md)** - Complete documentation overview and navigation guide
+- **Quick Links:**
+  - [Overview](./docs/01-Overview.md) - Purpose and key differentiators
+  - [Architecture](./docs/02-Architecture.md) - Technical stack and decisions
+  - [Core Domain Models](./docs/03-Core-Domain-Models.md) - Business entities and relationships
+  - [Feature Implementation](./docs/05-Feature-Implementation-Details.md) - Detailed implementation guides
+  - [German Legal Compliance (GoBD)](./docs/06-German-Legal-Compliance-GoBD.md) - Tax compliance requirements
+  - [Testing Strategy](./docs/08-Testing-Strategy.md) - Comprehensive testing approach
+  - [Deployment Guide](./docs/09-Deployment-Considerations.md) - Production deployment
+- **[Agent Guidelines](AGENTS.md)** - Coding standards for AI assistants
 
 ## License
 
