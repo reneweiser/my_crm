@@ -66,17 +66,17 @@ Development broken into 6 focused sprints, each delivering a working, testable f
 **Goal:** Implement quote creation with line items and basic PDF export.
 
 ### Tasks
-- [ ] Create Quote model, migration, factory, tests
-- [ ] Create QuoteItem model, migration, factory, tests
+- [x] Create Quote model, migration, factory, tests
+- [x] Create QuoteItem model, migration, factory, tests
 - [ ] Build QuoteResource in Filament with repeater for line items
 - [ ] Implement auto-numbering (Q-YYYY-####)
-- [ ] Add tax calculation logic (configurable VAT rate)
-- [ ] Implement quote status workflow (draft/sent/accepted/rejected/converted)
+- [x] Add tax calculation logic (configurable VAT rate)
+- [x] Implement quote status workflow (draft/sent/accepted/rejected/converted)
 - [ ] Create basic PDF template for quotes (Blade view)
 - [ ] Implement PDF generation service
 - [ ] Add "Generate PDF" action to QuoteResource
 - [ ] Add QuotesRelationManager to ClientResource
-- [ ] Write feature tests for quote creation and PDF generation
+- [x] Write feature tests for quote creation and PDF generation
 
 ### Deliverables
 - Quote creation with line items
